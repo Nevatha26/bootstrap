@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid"></div>
+		<div class="jumbotron">
+            <div class="container text centered">
+				<h1>Bootstrap</h1>
+				<p>
+					Modal Windows
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">
+        Demo modal
+      </button>
+
+        <div class="modal fade" id="Modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    In modal
+                    use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, 
+                    user notifications, or completely custom content.
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
